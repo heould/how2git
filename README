@@ -22,4 +22,8 @@ PUSH:
 		git commit -m 'ver 1.1'
 		git push -u origin master
 		
+配置：
+	>git 不会修改lf到crlf
+	git config --global core.crlf false
+		
 	 
